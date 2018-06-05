@@ -15,6 +15,7 @@ import paho.mqtt.client as mqtt
 BROKER = 'iot.eclipse.org'
 
 
+# noinspection PyUnusedLocal
 def on_message(client, userdata, message):
     print(f'{message.topic}: {message.payload.decode()}')
 
