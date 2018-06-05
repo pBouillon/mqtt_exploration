@@ -7,6 +7,7 @@ Publishing MSG on TOPIC
 """
 
 import time
+
 import paho.mqtt.client as mqtt
 
 BROKER = 'iot.eclipse.org'
